@@ -5,12 +5,12 @@
   *** DUPLICATE THIS FILE AND SAVE NEW BEFORE MAKING ANY CHANGES ***
 
   INSTRUCTIONS:
-  2. For best results, use ClickDimensions Embed Widget instead of IFrame Option
+  1. For best results, use ClickDimensions Embed Widget instead of IFrame Option
+  2. Wrap the entire widget in <div style="overflow:hidden"></div>
   3. Limit the form to 1 column. Do not use the columns in the grid editor.
-  4. Instead, use "FORM GRID DEFINITIONS" section below as a template for responsive columns
+  4. Use "FORM GRID DEFINITIONS" section below as a template for responsive columns
 
   TABLE OF CONTENTS:
-  * BODY STYLE
   * FORM CONTAINER STYLE
   * FORM GRID DEFINITIONS
   * FIELD INPUT STYLE
@@ -21,16 +21,10 @@
 
 */
 
-/*--- BODY STYLE ---*/
-.clickdform body {
-  margin: 0px;
-  padding: 0px;
-  font-family: "futura-pt", "Futura PT", "brandon-grotesque", "Brandon Grotesque", "myriad-pro", "Myriad Pro", Georgia, sans-serif !important;
-  -webkit-text-size-adjust: 100%;
-}
-
 /*--- FORM CONTAINER STYLE ---*/
 .clickdform.mainDiv {
+  font-family: "futura-pt", "Futura PT", "brandon-grotesque", "Brandon Grotesque", "myriad-pro", "Myriad Pro", Georgia, sans-serif !important;
+  font-size: 1em !important;
   margin: auto;
   float: left;
   padding-top: 0px !important;
