@@ -18,7 +18,7 @@ For best results, use the Clickdimensions Widget instead of the Iframe option. U
 
 Example:
 
-Before:
+Before (this is the code that Clickdimensions provides in the Embed view):
 ~~~~
 <script type="text/javascript">var loc = "http://analytics.clickdimensions.com/agfirstcom-asvkl/pages/";</script>
 <script type="text/javascript" src="https://az124611.vo.msecnd.net/web/v10/CDWidget.js"></script>
