@@ -7,16 +7,16 @@
 
 ## Embedding the Form
 
-For best results, use Clickdimensions Embed Widget instead of the Iframe Option. Using the Widget as option offers the following benefits over using the Iframe option:
+For best results, use the Clickdimensions Widget instead of the Iframe option. Using the Widget option offers the following benefits over using the Iframe embed:
 - The height for forms does not have to manually set and is fully responsive to the size of the form
 - Redirects to external URLS (thank you pages, etc.) work properly
 
 ## Notes on Using the Embed Widget
 
-- To avoid manually setting heights or clearing the form container&#39;s default float, it&#39;s necessary to wrap the form&#39;s div container in &lt;div style=&quot;overflow:hidden&quot;&gt;&lt;/div&gt;. An example is below:
+- To avoid manually setting heights or clearing the form container&#39;s default float, it&#39;s necessary to wrap the form&#39;s div container in &lt;div style=&quot;overflow:hidden&quot;&gt;&lt;/div&gt;.
 - When embedding the widget to secure sites (sites that are served over HTTPS), the Clickdimensions domain host should be updated from **http://** to **https://**
 
-Examples:
+Example:
 
 Before:
 ~~~~
@@ -34,12 +34,7 @@ After:
 </div>
 ~~~~
 
-Note that on line 1 the protocol has been changed to HTTPS. Note that on line 3, the form DIV container has been wrapped in another DIV containing the 'overflow:hidden' style.
-
-## Using the Form Designer
-
-- Do not use the columns in the grid editor.
-- Limiting the form to 1 column gives you more control over the CSS layout than relying on HTML table structure.
+Note that on line 1 the protocol has been changed to HTTPS. Note that on lines 3 & 5, the form DIV container has been wrapped in another DIV containing the **overflow:hidden** style.
 
 ## Adding and Customizing Styles
 
@@ -49,3 +44,4 @@ Use the base-styles.css as a template for the form stylesheet. Add the entirety 
 - Manipulate the appearance and color of the button
 - Add or remove padding to form fields
 - Reposition fields and/or create a responsive layout (using the CSS section called FORM GRID DEFINITIONS)
+- Much, much more!
