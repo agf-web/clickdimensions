@@ -53,8 +53,9 @@
 .clickdform form > div:nth-child(10),
 .clickdform form > div:nth-child(11),
 .clickdform form > div:nth-child(12) {
+  display: inline-block;
   width: 48%;
-  float: left;
+  vertical-align: top;
 }
 
 
