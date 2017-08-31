@@ -1,0 +1,167 @@
+/*!
+  Info: This is a stylesheet for ClickDimensions forms.
+  Author: Jon Rivers
+  *** DUPLICATE THIS FILE AND SAVE NEW BEFORE MAKING ANY CHANGES ***
+  INSTRUCTIONS:
+  1. For best results, use ClickDimensions Embed Widget instead of IFrame Option
+  2. Wrap the entire widget in <div style="overflow:hidden"></div>
+  3. Limit the form to 1 column. Do not use the columns in the grid editor.
+  4. Use "FORM GRID DEFINITIONS" section below as a template for responsive columns
+  TABLE OF CONTENTS:
+  * FORM CONTAINER STYLE
+  * FORM GRID DEFINITIONS
+  * FIELD INPUT STYLE
+  * FIELD LABEL STYLE
+  * SUBMIT BUTTON STYLE
+  * PREVIOUS BUTTON STYLE
+  * NEXT BUTTON STYLE
+*/
+
+/*--- FORM CONTAINER STYLE ---*/
+.clickdform.mainDiv {
+  font-family: fira-sans, Georgia, sans-serif !important;
+  font-size: 1em !important;
+  margin: auto;
+  float: left;
+  padding-top: 0px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  width: 100%;
+}
+
+.clickdform .responsiveCell div.alignTop,
+.clickdform .responsiveCell div.alignBottom {
+  display: block;
+}
+
+.clickdform .responsiveCell,
+.clickdform .responsiveCellSize1,
+.clickdform .maxSize1,
+.clickdform .minSize1 {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+/*--- FORM GRID DEFINITIONS ---*/
+.clickdform form > div:nth-child(9),
+.clickdform form > div:nth-child(10),
+.clickdform form > div:nth-child(11),
+.clickdform form > div:nth-child(12),
+.clickdform form > div:nth-child(14),
+.clickdform form > div:nth-child(15),
+.clickdform form > div:nth-child(16),
+.clickdform form > div:nth-child(17) {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.clickdform form > div:nth-child(10),
+.clickdform form > div:nth-child(12),
+.clickdform form > div:nth-child(15),
+.clickdform form > div:nth-child(17) {
+  margin-left: 4%;
+}
+
+
+/*--- FIELD INPUT STYLE ---*/
+.clickdform input[type='text'],
+.clickdform textarea,
+.clickdform select {
+  font-family: fira-sans, Georgia, sans-serif !important;
+  font-size: 16px !important;
+  color: #333;
+  padding: 8px;
+  border-top: 1px solid #7c7c7c;
+  border-left: 1px solid #c3c3c3;
+  border-right: 1px solid #c3c3c3;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clickdform input:hover,
+.clickdform textarea:hover,
+.clickdform select:hover {
+  background: #f5f5f5;
+}
+
+.clickdform input[type="radio"],
+.clickdform input[type="checkbox"] {
+   margin-right: 4px;
+}
+
+/*--- FIELD LABEL STYLE ---*/
+.clickdform span {
+  color: #454545 !important;
+  font-family: fira-sans, Georgia, sans-serif !important;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 16px !important;
+}
+
+@media (max-width: 480px) {
+.clickdform span {
+  font-size: 12px !important;
+}
+
+}
+
+.clickdform span.maxSize1 {
+  font-weight: bold !important;
+}
+
+.clickdform .requiredInfo {
+  font-family: fira-sans, Georgia, sans-serif !important;
+}
+
+/*--- SUBMIT BUTTON STYLE ---*/
+.clickdform .buttonContainer {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.clickdform #btnSubmit {
+  background-color: #4e5641;
+  border: 2px solid #919a7f;
+  border-radius: 5px;
+  color: #fff !important;
+  cursor: pointer;
+  display: block;
+  font-family: fira-sans, Georgia, sans-serif !important;
+  font-weight: normal !important;
+  font-size: 16px !important;
+  letter-spacing: 1px;
+  line-height: 1.42857;
+  margin: 15px 0 0 0;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  transition: .3s all;
+  clear: both;
+  width: 100%;
+}
+
+.clickdform #btnSubmit:hover {
+  cursor: pointer;
+  background-color: #636d53;
+  border-color: #cad8ae;
+}
+
+/*--- PREVIOUS BUTTON STYLE ---*/
+.clickdform .WizardPrevButton {
+  margin: 15px 10px 0 0;
+  font-family: fira-sans, Georgia, sans-serif !important;
+  font-size: 13px;
+  float: left;
+}
+
+/*--- NEXT BUTTON STYLE ---*/
+.clickdform .WizardNextButton {
+  margin: 15px 0px 0 0;
+  font-family: fira-sans, Georgia, sans-serif !important;
+  font-size: 13px;
+  float: right;
+  clear: both;
+}
