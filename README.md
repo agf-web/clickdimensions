@@ -2,13 +2,14 @@
 
 ## Using the Form Designer
 
-- Do not use the columns in the Clickdimensions form editor.
+- **Do not use the columns in the Clickdimensions form editor.**
 - Limiting the form to 1 column gives you more control over the CSS layout than relying on HTML table structure.
 
 ## Embedding the Form
 
 For best results, use the Clickdimensions Widget instead of the Iframe option. Using the Widget option offers the following benefits over using the Iframe embed:
 - The height for forms does not have to manually set and is fully responsive to the size of the form
+- Custom web fonts will render wherever the form is embedded
 - Redirects to external URLS (thank you pages, etc.) work properly
 
 ## Notes on Using the Embed Widget
