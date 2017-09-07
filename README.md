@@ -7,7 +7,7 @@
 
 ## Embedding the Form
 
-For best results, use the Clickdimensions Widget instead of the Iframe option. Using the Widget option offers the following benefits over using the Iframe embed:
+For best results, **use the Clickdimensions Widget instead of the Iframe option**. Using the Widget option offers the following benefits over using the Iframe embed:
 - The height for forms does not have to manually set and is fully responsive to the size of the form
 - Custom web fonts will render wherever the form is embedded
 - Redirects to external URLS (thank you pages, etc.) work properly
