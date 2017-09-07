@@ -1,15 +1,10 @@
 /*!
-  Info: This is a stylesheet for Northwest Florida ClickDimensions forms.
+  Info: This is a stylesheet for ClickDimensions forms.
   Author: Jon Rivers
-  *** DUPLICATE THIS FILE AND SAVE NEW BEFORE MAKING ANY CHANGES ***
-  INSTRUCTIONS:
-  1. For best results, use ClickDimensions Embed Widget instead of IFrame Option
-  2. Wrap the entire widget in <div style="overflow:hidden"></div>
-  3. Limit the form to 1 column. Do not use the columns in the grid editor.
-  4. Use "FORM GRID DEFINITIONS" section below as a template for responsive columns
+  Repository: https://github.com/agf-web/clickdimensions
+
   TABLE OF CONTENTS:
   * FORM CONTAINER STYLE
-  * FORM GRID DEFINITIONS
   * FIELD INPUT STYLE
   * FIELD LABEL STYLE
   * SUBMIT BUTTON STYLE
@@ -42,8 +37,6 @@
   min-width: 100%;
   max-width: 100%;
 }
-
-
 
 /*--- FIELD INPUT STYLE ---*/
 .clickdform input[type='text'],
